@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light;
+
+  /* chrome (brand) */
+  --navy-950: #0a1330;
+  --navy-900: #0f1c3f;
+  --navy-800: #16264f;
+  --navy-700: #1f335f;
+  --navy-600: #2c4478;
+  --gold-500: #d4af37;
+  --gold-400: #e2c464;
+  --gold-050: #fbf3da;
+
+  /* surfaces */
+  --page-plane: #f4f6fb;
+  --surface-1: #ffffff;
+  --surface-2: #f7f8fb;
+  --surface-glass: rgba(255, 255, 255, 0.72);
+
+  /* ink */
+  --text-primary: #0e1424;
+  --text-secondary: #545b70;
+  --text-muted: #8991a8;
+  --text-inverse: #f4f6fb;
+  --text-inverse-muted: #a9b2ce;
+
+  /* borders */
+  --border-hairline: rgba(14, 20, 36, 0.09);
+  --border-hairline-strong: rgba(14, 20, 36, 0.14);
+  --border-inverse: rgba(244, 246, 251, 0.12);
+
+  /* chart / data (validated categorical palette, light mode) */
+  --series-1: #2a78d6; /* blue */
+  --series-2: #eb6834; /* orange */
+  --series-3: #1baf7a; /* aqua */
+  --series-4: #eda100; /* yellow */
+  --series-5: #e87ba4; /* magenta */
+  --series-6: #008300; /* green */
+  --series-7: #4a3aa7; /* violet */
+  --series-8: #e34948; /* red */
+
+  --seq-100: #cde2fb;
+  --seq-250: #86b6ef;
+  --seq-400: #3987e5;
+  --seq-550: #1c5cab;
+  --seq-700: #0d366b;
+
+  /* status (fixed, never themed) */
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+
+  --grid-hairline: #e1e0d9;
+  --axis-baseline: #c3c2b7;
+
+  /* type */
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* spacing / radius / shadow */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --shadow-card: 0 1px 2px rgba(14, 20, 36, 0.04), 0 8px 24px -12px rgba(14, 20, 36, 0.12);
+  --shadow-panel: 0 4px 16px rgba(14, 20, 36, 0.06), 0 24px 48px -24px rgba(14, 20, 36, 0.18);
+
+  --sidebar-width: 264px;
+  --topbar-height: 68px;
+}
